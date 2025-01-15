@@ -1,147 +1,24 @@
- /* Base styling */
- body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.card-img-top{
+    height: 300px;
+    object-fit: cover;
 }
-
-/* Header styling */
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 1rem;
-    text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-/* Navigation styling */
-nav {
+.category{
     display: flex;
     justify-content: center;
-    gap: 1rem;
-    margin-top: 0.5rem;
+    align-items: center;
+    padding-top: 20px;
 }
-
-nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-nav a:hover {
-    background-color: #45a049;
-}
-
-/* Product section styling */
-.product-section {
-    padding: 2rem;
-    background-color: #f9f9f9;
+.p1{
+   
     text-align: center;
 }
-
-.product-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-    padding: 2rem 1rem;
-}
-
-.product-card {
-    background-color: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    overflow: hidden;
-    text-align: left;
-}
-
-.product-card img {
-    width: 100%;
-    height: auto;
-}
-
-.product-card-content {
-    padding: 1rem;
-}
-
-.product-card h3 {
-    margin: 0 0 0.5rem;
-    font-size: 1.2rem;
-}
-
-.product-card p {
-    margin: 0 0 1rem;
-    color: #555;
-}
-
-.product-card button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.product-card button:hover {
-    background-color: #45a049;
-}
-
-/* Footer styling */
-footer {
-    background-color: #333;
-    color: white;
+.image{
+   
     text-align: center;
-    padding: 1rem;
-    position: relative;
-    bottom: 0;
-    width: 100%;
 }
-
-/* Responsive styling for tablets */
-@media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-
-    .product-grid {
-        padding: 1rem 0.5rem;
-        gap: 1.5rem;
-    }
-
-    .product-card {
-        margin: 0 auto;
-    }
+footer{
+    background-color: #E195AB;
 }
-
-/* Responsive styling for mobile devices */
-@media (max-width: 480px) {
-    header h1 {
-        font-size: 1.5rem;
-    }
-
-    nav a {
-        font-size: 0.9rem;
-        padding: 0.4rem 0.8rem;
-    }
-
-    .product-card h3 {
-        font-size: 1rem;
-    }
-
-    .product-card p {
-        font-size: 0.9rem;
-    }
-
-    .product-card button {
-        font-size: 0.9rem;
-        padding: 0.4rem 0.8rem;
-    }
+.navbar{
+    background-color: #E195AB;
 }
